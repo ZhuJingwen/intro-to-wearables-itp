@@ -36,6 +36,7 @@ function gotCharacteristics(error, characteristics) {
   if (error) console.log('error: ', error);
   console.log('characteristics: ', characteristics);
   myCharacteristic = characteristics[0];
+  console.log(myCharacteristic);
   // Start notifications on the first characteristic by passing the characteristic
   // And a callback function to handle notifications
   myBLE.startNotifications(myCharacteristic, handleNotifications);
