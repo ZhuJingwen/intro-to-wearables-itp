@@ -24,7 +24,7 @@ BLEBoolCharacteristic buttonCharacteristic("19B10013-E8F2-537E-4F6C-D104768A1214
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial);
+  //while (!Serial);
 
   pinMode(sensorPin, INPUT); // use button pin as an input
   pinMode(buttonPin, INPUT); // use button pin as an input

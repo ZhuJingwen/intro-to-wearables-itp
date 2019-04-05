@@ -5,7 +5,7 @@
 // https://opensource.org/licenses/MIT
 
 //const serviceUuid = "19b10000-e8f2-537e-4f6c-d104768a1214";
-const serviceUuid = "fe8f78ab-04a0-4446-ae93-0fcb21ea8c97";
+const serviceUuid = "98d5f3d5-f740-42b9-b52f-971628c5a068";
 let myCharacteristic;
 let input;
 let myBLE;

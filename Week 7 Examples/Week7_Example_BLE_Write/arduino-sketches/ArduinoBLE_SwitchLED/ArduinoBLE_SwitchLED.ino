@@ -12,7 +12,7 @@
 
 #include <ArduinoBLE.h>
 
-BLEService ledService("fe8f78ab-04a0-4446-ae93-0fcb21ea8c97"); // BLE LED Service
+BLEService ledService("98d5f3d5-f740-42b9-b52f-971628c5a068"); // BLE LED Service
 
 // BLE LED Switch Characteristic - custom 128-bit UUID, read and writable by central
 BLEByteCharacteristic switchCharacteristic("19B10001-E8F2-537E-4F6C-D104768A1214", BLERead | BLEWrite);
