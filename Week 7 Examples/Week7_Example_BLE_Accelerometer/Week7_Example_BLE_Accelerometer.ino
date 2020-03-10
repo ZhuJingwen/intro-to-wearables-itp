@@ -1,7 +1,7 @@
 /*
-  Arduino LSM9DS1 - Simple Gyroscope
+  Arduino LSM9DS1 - Simple Accelerometer
 
-  This example reads the gyroscope values from the LSM9DS1
+  This example reads the accelerometer values from the LSM9DS1
   sensor and continuously prints them to the Serial Monitor and BLE
 
   The circuit:
