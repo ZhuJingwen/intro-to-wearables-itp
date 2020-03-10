@@ -18,7 +18,7 @@ BLEService ledService("98d5f3d5-f740-42b9-b52f-971628c5a068"); // BLE LED Servic
 BLEIntCharacteristic ledCharacteristic("19B10001-E8F2-537E-4F6C-D104768A1214", BLERead | BLEWrite);
 
 const int ledPin = 2; // pin to use for the LED
-
+  
 void setup() {
   Serial.begin(9600);
   while (!Serial);

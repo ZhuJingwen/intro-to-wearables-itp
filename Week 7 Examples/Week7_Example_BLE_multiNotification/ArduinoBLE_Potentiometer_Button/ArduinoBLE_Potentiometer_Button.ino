@@ -14,7 +14,7 @@
 #include <ArduinoBLE.h>
 
 const int sensorPin = A2; // set buttonPin to digital pin 4
-const int buttonPin = 3; // set buttonPin to digital pin 4
+const int buttonPin = 4; // set buttonPin to digital pin 4
 
 BLEService sensorService("19B10010-E8F2-537E-4F6C-D104768A1214"); // create service
 
